@@ -1,0 +1,15 @@
+{
+  "name": "Cell Defender",
+  "short_name": "Cell Defender",
+  "description": "You are a white blood cell fighting bacteria, viruses and parasites. Free 3D arcade game in your browser.",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#2a0715",
+  "theme_color": "#2a0715",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

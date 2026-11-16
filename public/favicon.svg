@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="membrane" cx="42%" cy="36%" r="68%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#ece8ff"/>
+      <stop offset="1" stop-color="#b4aae8"/>
+    </radialGradient>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#6a1636"/>
+      <stop offset="1" stop-color="#2a0715"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- white blood cell: blobby membrane with pseudopod bulges -->
+  <path d="M32 8c7 0 11 4 15 7s10 6 9 14c-1 6-5 8-5 13s-2 10-9 12-9 3-14 1-11-4-14-10-5-8-4-14 2-11 7-15 8-8 15-8z"
+        fill="url(#membrane)" stroke="#ffffff" stroke-opacity="0.85" stroke-width="1.5"/>
+  <!-- lobed nucleus -->
+  <circle cx="25" cy="31" r="7" fill="#8550ec"/>
+  <circle cx="37" cy="27" r="6.5" fill="#8550ec"/>
+  <circle cx="34" cy="39" r="6" fill="#7442d6"/>
+  <!-- granules -->
+  <circle cx="44" cy="38" r="1.8" fill="#ff9fd0"/>
+  <circle cx="20" cy="42" r="1.6" fill="#ff9fd0"/>
+  <circle cx="42" cy="18" r="1.5" fill="#ff9fd0"/>
+  <circle cx="22" cy="20" r="1.4" fill="#ff9fd0"/>
+</svg>
