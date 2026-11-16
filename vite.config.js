@@ -64,7 +64,8 @@ function seo(siteUrl) {
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   return {
-    base: '/arcade/',
+    base: '/arcade/cell-defender/',
+    build: { outDir: 'dist/arcade/cell-defender', emptyOutDir: true },
     plugins: [react(), seo(env.SITE_URL)],
   }
 })
