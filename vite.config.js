@@ -64,6 +64,7 @@ function seo(siteUrl) {
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   return {
+    base: '/arcade/',
     plugins: [react(), seo(env.SITE_URL)],
   }
 })
